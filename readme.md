@@ -5,13 +5,13 @@
 ## Install
 
 ``` shell
-npm install to-bitmex-timeframe
+npm install @strong-roots-capital/to-bitmex-timeframe
 ```
 
 ## Use
 
 ``` typescript
-import toBitmexTimeframe from 'to-bitmex-timeframe'
+import toBitmexTimeframe from '@strong-roots-capital/to-bitmex-timeframe'
 
 toBitmexTimeframe('1')
 //=> '1m'
