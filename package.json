@@ -1,6 +1,6 @@
 {
   "name": "to-bitmex-timeframe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a TradingView timeframe to a BitMEX timeframe",
   "main": "dist/to-bitmex-timeframe.js",
   "types": "dist/to-bitmex-timeframe.d.ts",
