@@ -1,6 +1,6 @@
 
-to-bitmex-timeframe [![Build status](https://travis-ci.org/strong-roots-capital/to-bitmex-timeframe.svg?branch=master)](https://travis-ci.org/strong-roots-capital/to-bitmex-timeframe) [![npm version](https://img.shields.io/npm/v/to-bitmex-timeframe.svg)](https://npmjs.org/package/to-bitmex-timeframe) [![codecov](https://codecov.io/gh/strong-roots-capital/to-bitmex-timeframe/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/to-bitmex-timeframe)
-========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+to-bitmex-timeframe [![Build status](https://travis-ci.org/strong-roots-capital/to-bitmex-timeframe.svg?branch=master)](https://travis-ci.org/strong-roots-capital/to-bitmex-timeframe) [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/to-bitmex-timeframe.svg?style=flat)](https://www.npmjs.com/package/@strong-roots-capital/to-bitmex-timeframe) [![codecov](https://codecov.io/gh/strong-roots-capital/to-bitmex-timeframe/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/to-bitmex-timeframe)
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 > Convert a TradingView timeframe to a BitMEX timeframe
 
@@ -49,7 +49,7 @@ toBitmextimeframe('1W')
 
 ▸ **toBitmexTimeframe**(timeframe: *`string`*): `string`
 
-*Defined in [to-bitmex-timeframe.ts:14](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/5596efc/src/to-bitmex-timeframe.ts#L14)*
+*Defined in [to-bitmex-timeframe.ts:14](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/76762f7/src/to-bitmex-timeframe.ts#L14)*
 
 Convert a TradingView timeframe to a BitMEX timeframe. Valid inputs are: '1', '5', '1H', '1D'.
 
