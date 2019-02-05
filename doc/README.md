@@ -8,14 +8,14 @@ Install
 -------
 
 ```shell
-npm install to-bitmex-timeframe
+npm install @strong-roots-capital/to-bitmex-timeframe
 ```
 
 Use
 ---
 
 ```typescript
-import toBitmexTimeframe from 'to-bitmex-timeframe'
+import toBitmexTimeframe from '@strong-roots-capital/to-bitmex-timeframe'
 
 toBitmexTimeframe('1')
 //=> '1m'
@@ -49,7 +49,7 @@ toBitmextimeframe('1W')
 
 ▸ **toBitmexTimeframe**(timeframe: *`string`*): `string`
 
-*Defined in [to-bitmex-timeframe.ts:14](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/1badd95/src/to-bitmex-timeframe.ts#L14)*
+*Defined in [to-bitmex-timeframe.ts:14](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/5596efc/src/to-bitmex-timeframe.ts#L14)*
 
 Convert a TradingView timeframe to a BitMEX timeframe. Valid inputs are: '1', '5', '1H', '1D'.
 
