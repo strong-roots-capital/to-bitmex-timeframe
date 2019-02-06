@@ -33,6 +33,13 @@ toBitmextimeframe('1W')
 //=> { ArgumentError: Expected string to be one of `["1","5","1H","1D"]`, got `1W` }
 ```
 
+Note: for convenience in conjunction with `bitmex-node`, the type of return type is `'1m' \| '5m' \| '1h' \| '1d'`.
+
+Related
+-------
+
+*   [bitmex-node](https://www.npmjs.com/package/bitmex-node)
+
 ## Index
 
 ### Functions
@@ -47,9 +54,9 @@ toBitmextimeframe('1W')
 
 ###  toBitmexTimeframe
 
-▸ **toBitmexTimeframe**(timeframe: *`string`*): `string`
+▸ **toBitmexTimeframe**(timeframe: *`string`*): "1m" \| "5m" \| "1h" \| "1d"
 
-*Defined in [to-bitmex-timeframe.ts:14](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/76762f7/src/to-bitmex-timeframe.ts#L14)*
+*Defined in [to-bitmex-timeframe.ts:15](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/897d33a/src/to-bitmex-timeframe.ts#L15)*
 
 Convert a TradingView timeframe to a BitMEX timeframe. Valid inputs are: '1', '5', '1H', '1D'.
 
@@ -59,7 +66,7 @@ Convert a TradingView timeframe to a BitMEX timeframe. Valid inputs are: '1', '5
 | ------ | ------ | ------ |
 | timeframe | `string` |  The TradingView timeframe to convert |
 
-**Returns:** `string`
+**Returns:** "1m" \| "5m" \| "1h" \| "1d"
 Representation of timeframe accepted by BitMEX API.
 
 ___

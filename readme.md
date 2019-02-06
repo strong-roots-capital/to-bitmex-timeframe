@@ -28,3 +28,10 @@ toBitmexTimeframe('1D')
 toBitmextimeframe('1W')
 //=> { ArgumentError: Expected string to be one of `["1","5","1H","1D"]`, got `1W` }
 ```
+
+Note: for convenience in conjunction with `bitmex-node`, the type of
+return type is `'1m' | '5m' | '1h' | '1d'`.
+
+## Related
+
+- [bitmex-node](https://www.npmjs.com/package/bitmex-node)
