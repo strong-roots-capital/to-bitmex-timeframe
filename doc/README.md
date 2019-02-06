@@ -56,7 +56,7 @@ Related
 
 ▸ **toBitmexTimeframe**(timeframe: *`string`*): "1m" \| "5m" \| "1h" \| "1d"
 
-*Defined in [to-bitmex-timeframe.ts:15](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/897d33a/src/to-bitmex-timeframe.ts#L15)*
+*Defined in [to-bitmex-timeframe.ts:15](https://github.com/strong-roots-capital/to-bitmex-timeframe/blob/ae92744/src/to-bitmex-timeframe.ts#L15)*
 
 Convert a TradingView timeframe to a BitMEX timeframe. Valid inputs are: '1', '5', '1H', '1D'.
 
