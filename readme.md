@@ -34,4 +34,5 @@ return type is `'1m' | '5m' | '1h' | '1d'`.
 
 ## Related
 
+- [bin-size-to-timeframe](https://github.com/strong-roots-capital/bin-size-to-timeframe)
 - [bitmex-node](https://www.npmjs.com/package/bitmex-node)
